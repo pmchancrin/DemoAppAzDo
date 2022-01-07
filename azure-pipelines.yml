@@ -57,7 +57,7 @@ stages:
         deploy:
         
           steps:
-          - task: replacetokens@3
+          - task: replacetokens@1
             displayName: 'Replace tokens in yaml file'
             inputs:
               rootDirectory: '$(Pipeline.Workspace)'
